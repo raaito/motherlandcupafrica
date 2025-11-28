@@ -28,7 +28,7 @@ export default function CharityCupPage() {
                     </h1>
 
                     <div className="mb-8">
-                        <span className="block text-2xl md:text-3xl text-white/80 font-accent italic">
+                        <span className="block text-2xl md:text-3xl text-white/80 font-body italic">
                             BAT Edition
                         </span>
                     </div>

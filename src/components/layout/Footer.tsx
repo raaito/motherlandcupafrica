@@ -68,7 +68,17 @@ export function Footer() {
 
                 <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
                     <p>&copy; 2025 Motherland Football Tournament. All rights reserved.</p>
-                    <p>Designed with African Pride 🌍</p>
+                    <p>
+                        Designed with African Pride 🌍 by{" "}
+                        <a
+                            href="http://writures.xo.je/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-gold-500 hover:text-gold-400 transition-colors font-semibold"
+                        >
+                            Writures
+                        </a>
+                    </p>
                 </div>
             </div>
         </footer>

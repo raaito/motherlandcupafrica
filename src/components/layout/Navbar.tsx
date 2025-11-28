@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
 import { Menu, X } from "lucide-react"
@@ -32,9 +33,14 @@ export function Navbar() {
         >
             <div className="container mx-auto px-4 flex items-center justify-between">
                 <Link href="/" className="relative z-50">
-                    <span className="font-display text-2xl font-bold tracking-tighter text-white">
-                        MOTHERLAND<span className="text-gold-500">2025</span>
-                    </span>
+                    <Image
+                        src="/logo.png"
+                        alt="Motherland 2025"
+                        width={300}
+                        height={100}
+                        className="h-auto w-auto max-h-20"
+                        priority
+                    />
                 </Link>
 
                 {/* Desktop Nav */}
